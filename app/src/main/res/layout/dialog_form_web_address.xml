@@ -19,7 +19,9 @@
     <EditText
         android:id="@+id/etName"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:inputType="textCapWords|textCapSentences"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -32,7 +34,9 @@
     <EditText
         android:id="@+id/etAddress"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:inputType="textUri"/>
 
     <Button
         android:id="@+id/btnSave"
